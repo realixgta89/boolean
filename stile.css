@@ -1,0 +1,60 @@
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+
+}
+#menu{
+    padding-top: 70px;
+    margin: auto;
+    
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3,0.60);
+    width: 1000px;
+}
+header{
+    text-align: center;
+}
+header>img{
+    width: 200px;
+}
+header>p{
+   font-size: 25px;
+   color: rgb(7, 241, 7);
+   font-weight: bold;
+}
+main>div:first-child{
+background-color:rgb(7, 241, 7);
+text-align: center;
+margin: auto;
+padding:10px;
+}
+main{
+    
+   margin: auto;
+   width: 80%;
+}
+p{
+    margin:7px 0px;
+    color: white;
+}
+.titolo{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+.carica{
+    height: 30px;
+}
+.carica.secondo{
+   background-color:green;
+   width: 70%;
+}
+.carica.primo{
+    background-color:yellow;
+    width: 40%;
+ }
+ .carica.terzo{
+    background-color:red;
+    width: 20%;
+ }
